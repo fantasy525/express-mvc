@@ -3,7 +3,9 @@
  */
 var home = require('./home');
 var user = require('./user');
+var login = require('./login');
 module.exports = {
     home,
-    user
+    user,
+    login
 };
